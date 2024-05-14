@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Mind</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/logo/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="wrapper" id="header">
+        <div class="header-logo">
+            <img src="assets/logo/logo.svg" alt="">
+        </div>
+        <input type="checkbox" id="burger">
+        <label for="burger"></label>
+        <div class="nav">
+            <nav>
+                <a class="active" href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="about.html">О нас</a>
+                <a href="authors.html">Художники</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+        <div class="header-icon">
+            <a href=""><img src="assets/img/header/shop.svg" alt=""></a>
+            <a href=""><img src="assets/img/header/heart.svg" alt=""></a>
+            <input type="checkbox" id="registr">
+            <label for="registr"></label>
+            <div class="registration">
+                <div class="form-section">
+                    <div class="login-box">
+                        <h2>Авторизация</h2>
+                        <div class="form-items">
+                            <p>Эл.почта</p>
+                            <input type="email" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Пароль</p>
+                            <input type="password">
+                        </div>
+                        <a href="admin.html"><button class="red-btn">Войти в аккаунт</button></a>
+                    </div>
+
+                    <div class="signup-box">
+                        <h2>Регистрация</h2>
+                        <div class="form-items">
+                            <p>Фамилия</p>
+                            <input type="text" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Имя</p>
+                            <input type="text" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Эл.почта</p>
+                            <input type="email" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Пароль</p>
+                            <input type="password">
+                        </div>
+                        <div class="form-items">
+                            <p>Подтверждение пароля</p>
+                            <input type="password">
+                        </div>
+                        <button class="red-btn">Зарегистрироваться</button>
+                    </div>
+                </div>
+                <div class="slider"></div>
+                <div class="btn">
+                    <button class="login">Авторизация</button>
+                    <button class="signup">Регистрация</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- banner-catalog -->
+    <section class="banner-catalog">
+        <div class="wrapper">
+            <div class="banner-catalog-descrip">
+                <div class="banner-text">
+                    <h1>Clear Mind</h1>
+                    <p>— место, где рождается искусство...</p>
+                </div>
+                <svg viewBox="-80 0 190 1" xmlns="http://www.w3.org/2000/svg">
+                    <path id="path" d="M-60 0a60 60 0 10150 0 60 60 0 10-150 0" fill="none" />
+                    <text y="0" letter-spacing="7">
+                        <textPath href="#path" startOffset="20">
+                            Наше искусство
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+        </div>
+        <div class="image-slider swiper-container">
+            <div class="image-slider_wrapper swiper-wrapper">
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/mona.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/girl.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/van.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/shout.png" alt="">
+                    </div>
+                </div>
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/time.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/kiss.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/van.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/shout.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-catalog end -->
+
+    <!-- catalog -->
+    <section class="catalog wrapper">
+        <div class="catalog-type">
+            <h3>Вид искусства</h3>
+            <div class="catalog-types">
+                <button class="white-btn active-btn">Все</button>
+                <button class="white-btn">Скульптура</button>
+                <button class="white-btn">Живопись</button>
+                <button class="white-btn">Графика</button>
+                <button class="white-btn">Объекты</button>
+            </div>
+        </div>
+        <div class="catalog-content">
+            <div class="catalog-sidebar">
+                <div class="catalog-style">
+                    <h3>Стиль искусства</h3>
+                    <div class="catalog-checkbox">
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Пейзаж</label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Портрет</label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Фауна</label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Флора</label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Натюрморт</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-author">
+                    <h3>Автор</h3>
+                    <input class="search" type="text" placeholder="Найти автора">
+                    <div class="catalog-checkbox">
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Алена Ковалли</label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Алина Магомедова</label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Алиса Валевская</label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Даня Пирогов</label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox">
+                            <label class="text">Дарья Клементьева</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-main">
+                <div class="catalog-items">
+                    <div class="catalog-item">
+                        <a href="tovar.html"><img src="assets/img/catalog/catalog/chaika.png" alt=""></a>
+                        <div class="catalog-name">
+                            <h3 class="name">Чайка в городе</h3>
+                            <h3 class="author">Olivia Lem</h3>
+                        </div>
+                        <p class="price">38 950 ₽</p>
+                        <div class="catalog-buttons">
+                            <button class="red-btn">В корзину</button>
+                            <a href="tovar.html"><button class="white-btn">Подробнее</button></a>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="assets/img/catalog/catalog/chaika.png" alt="">
+                        <div class="catalog-name">
+                            <h3 class="name">Чайка в городе</h3>
+                            <h3 class="author">Olivia Lem</h3>
+                        </div>
+                        <p class="price">38 950 ₽</p>
+                        <div class="catalog-buttons">
+                            <button class="red-btn">В корзину</button>
+                            <button class="white-btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="assets/img/catalog/catalog/chaika.png" alt="">
+                        <div class="catalog-name">
+                            <h3 class="name">Чайка в городе</h3>
+                            <h3 class="author">Olivia Lem</h3>
+                        </div>
+                        <p class="price">38 950 ₽</p>
+                        <div class="catalog-buttons">
+                            <button class="red-btn">В корзину</button>
+                            <button class="white-btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="assets/img/catalog/catalog/chaika.png" alt="">
+                        <div class="catalog-name">
+                            <h3 class="name">Чайка в городе</h3>
+                            <h3 class="author">Olivia Lem</h3>
+                        </div>
+                        <p class="price">38 950 ₽</p>
+                        <div class="catalog-buttons">
+                            <button class="red-btn">В корзину</button>
+                            <button class="white-btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- catalog end -->
+
+    <!-- footer -->
+    <footer>
+        <div class="wrapper">
+            <div class="footer-block">
+                <p class="footer-author">2024 © Симакова Лариса</p>
+                <a href="index.html"><img src="assets/logo/logo-full.svg" alt=""></a>
+                <div class="footer-docs">
+                    <p class="text">Все права защищены</p>
+                    <p class="text">Политика конфидециальности</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/catalog.js"></script>
+    <script src="assets/js/register.js"></script>
+</body>
+
+</html>

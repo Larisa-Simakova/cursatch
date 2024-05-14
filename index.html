@@ -10,10 +10,9 @@
 
 <body>
     <!-- header -->
-    <!-- <header class="header-main">
+    <header class="wrapper" id="header">
         <div class="header-logo">
-            <img src="assets/logo/logo-dark.png" alt="">
-            <h3><span>Ski</span>Gear</h3>
+            <img src="assets/logo/logo.svg" alt="">
         </div>
         <input type="checkbox" id="burger">
         <label for="burger"></label>
@@ -21,23 +20,76 @@
             <nav>
                 <a class="active" href="index.html">Главная</a>
                 <a href="catalog.html">Каталог</a>
-                <a href="#">Мужское</a>
-                <a href="#">Женское</a>
-                <a href="#">Для детей</a>
+                <a href="about.html">О нас</a>
+                <a href="authors.html">Художники</a>
+                <a href="contacts.html">Контакты</a>
             </nav>
         </div>
         <div class="header-icon">
-            <img src="assets/img/header/like-dark.svg" alt="">
-            <a href="shop.html"><img src="assets/img/header/shop-dark.svg" alt=""></a>
+            <a href=""><img src="assets/img/header/shop.svg" alt=""></a>
+            <a href=""><img src="assets/img/header/heart.svg" alt=""></a>
+            <input type="checkbox" id="registr">
+            <label for="registr"></label>
+            <div class="registration">
+                <div class="form-section">
+                    <div class="login-box">
+                        <h2>Авторизация</h2>
+                        <div class="form-items">
+                            <p>Эл.почта</p>
+                            <input type="email" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Пароль</p>
+                            <input type="password">
+                        </div>
+                        <a href="admin.html"><button class="red-btn">Войти в аккаунт</button></a>
+                    </div>
+
+                    <div class="signup-box">
+                        <h2>Регистрация</h2>
+                        <div class="form-items">
+                            <p>Фамилия</p>
+                            <input type="text" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Имя</p>
+                            <input type="text" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Эл.почта</p>
+                            <input type="email" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Пароль</p>
+                            <input type="password">
+                        </div>
+                        <div class="form-items">
+                            <p>Подтверждение пароля</p>
+                            <input type="password">
+                        </div>
+                        <button class="red-btn">Зарегистрироваться</button>
+                    </div>
+                </div>
+                <div class="slider"></div>
+                <div class="btn">
+                    <button class="login">Авторизация</button>
+                    <button class="signup">Регистрация</button>
+                </div>
+            </div>
         </div>
-    </header> -->
+    </header>
     <!-- header end -->
 
     <!-- banner -->
     <section class="banner">
-        <div class="banner-text">
-            <h1 id="text">Clear Mind</h1>
-            <button>перейти в каталог</button>
+        <div class="banner-descrip">
+            <div class="banner-text">
+                <h1>Clear Mind</h1>
+                <p>— место, где рождаются идеи...</p>
+            </div>
+            <div class="glass-btn glass-btn-red">
+                <a href="catalog.html">Перейти в каталог</a>
+            </div>
         </div>
         <canvas width="2049px" height="730px" id="sky"></canvas>
         <img src="assets/img/home/banner/volny.png" alt="">
@@ -45,19 +97,156 @@
         <img id="tree" src="assets/img/home/banner/tree.png" alt="">
     </section>
     <!-- banner end -->
-    <section class="wrapper py-150">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore perferendis quidem consequatur iste
-        officiis libero dolorum odio. Quis laboriosam suscipit libero accusamus tempore. Rerum sit ut illum, eligendi
-        voluptates culpa. Ex quos nobis perspiciatis sint, distinctio fugiat laborum, rerum cum quibusdam quisquam est,
-        ad ipsum voluptate autem illo pariatur recusandae exercitationem? Voluptatibus sed placeat eveniet nisi optio,
-        accusamus non quae sequi ipsum ut quia nesciunt earum eius. Veniam, ea dignissimos consequuntur, placeat culpa
-        repellat recusandae, harum suscipit fuga ipsa aspernatur perspiciatis iste. Ipsam mollitia dolore, dolor nobis
-        iure placeat. Debitis alias, nobis iusto sed aspernatur laborum porro mollitia accusantium?
-    </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <!-- phylosophy -->
+    <section class="phylosophy wrapper py-150">
+        <div class="phylosophy-items">
+            <img src="assets/img/home/phylosophy/image.png" alt="">
+            <div class="phylosophy-item">
+                <h2>Философия галереи</h2>
+                <div class="phylosophy-descrip">
+                    <p class="text">Clear Mind – галерея, которая транслирует российское интеллектуальное современное
+                        искусство.
+                    </p>
+                    <p class="text">Мы содействуем поддержке семейных и деловых ценностей и уверены, что каждый человек
+                        в любом возрасте
+                        может и
+                        должен жить в интеллектуальной атмосфере эстетики и искусства.</p>
+                </div>
+                <a href="about.html"><button class="red-btn">Подробнее</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- phylosophy end -->
+
+    <!-- category-authors -->
+    <section class="category-authors wrapper">
+        <h2 class="title-left">Работы современных художников</h2>
+        <div class="category-items">
+            <div class="category-item">
+                <a href="authors.html#authors-museum">
+                    <div class="category-img">
+                        <img src="assets/img/home/category-authors/museum.png" alt="">
+                        <div class="category-img-filter"></div>
+                    </div>
+                </a>
+                <div class="category-descrip">
+                    <p>Художники музейного уровня</p>
+                    <div class="glass-btn glass-btn-red">
+                        <a href="authors.html#authors-museum">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-item">
+                <a href="authors.html#authors-experience">
+                    <div class="category-img">
+                        <img src="assets/img/home/category-authors/experience.png" alt="">
+                        <div class="category-img-filter"></div>
+                    </div>
+                </a>
+                <div class="category-descrip">
+                    <p>Опытные художники</p>
+                    <div class="glass-btn glass-btn-red">
+                        <a href="authors.html#authors-experience">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-item">
+                <a href="authors.html#authors-young">
+                    <div class="category-img">
+                        <img src="assets/img/home/category-authors/collection.png" alt="">
+                        <div class="category-img-filter"></div>
+                    </div>
+                </a>
+                <div class="category-descrip">
+                    <p>Молодые художники</p>
+                    <div class="glass-btn glass-btn-red">
+                        <a href="authors.html#authors-young">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- category-authors end -->
+
+    <!-- category -->
+    <section class="category py-150">
+        <img class="sculpture-left" src="assets/img/home/category/sculpture-left.png" alt="">
+        <div class="wrapper">
+            <h2>Работы по виду искусства</h2>
+            <div class="category-items">
+                <div class="category-item">
+                    <div class="category-img">
+                        <img src="assets/img/home/category/sculpture.png" alt="">
+                        <div class="category-img-filter"></div>
+                    </div>
+                    <div class="category-descrip">
+                        <p>Скульптура</p>
+                        <div class="glass-btn glass-btn-red">
+                            <a href="#url">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <div class="category-img">
+                        <img src="assets/img/home/category/paint.png" alt="">
+                        <div class="category-img-filter"></div>
+                    </div>
+                    <div class="category-descrip">
+                        <p>Живопись</p>
+                        <div class="glass-btn glass-btn-red">
+                            <a href="#url">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <div class="category-img">
+                        <img src="assets/img/home/category/graphica.png" alt="">
+                        <div class="category-img-filter"></div>
+                    </div>
+                    <div class="category-descrip">
+                        <p>Графика</p>
+                        <div class="glass-btn glass-btn-red">
+                            <a href="#url">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- category end -->
+
+
+    <!-- subscribe -->
+    <section class="subscribe wrapper">
+        <h2 class="title-left">Хочешь быть ближе к миру искусства?</h2>
+        <div class="subscribe-item">
+            <p class="text">Подпишись на полезные советы о подборе искусства в интерьер 2 раза в месяц!</p>
+            <div class="subscribe-action">
+                <input type="email" placeholder="Ваш e-mail">
+                <button class="red-btn">Подписаться</button>
+            </div>
+        </div>
+        <img src="assets/img/home/subscribe/sub.png" alt="">
+    </section>
+    <!-- subscribe end -->
+
+    <!-- footer -->
+    <footer>
+        <div class="wrapper">
+            <div class="footer-block">
+                <p class="footer-author">2024 © Симакова Лариса</p>
+                <a href="#header"><img src="assets/logo/logo-full.svg" alt=""></a>
+                <div class="footer-docs">
+                    <p class="text">Все права защищены</p>
+                    <p class="text">Политика конфидециальности</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="assets/js/home.js"></script>
+    <script src="assets/js/register.js"></script>
 </body>
 
 </html>

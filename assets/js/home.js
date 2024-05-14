@@ -1,10 +1,3 @@
-gsap.to("#tree", {
-    scrollTrigger: {
-        scrub: 1
-    },
-    y: 200,
-});
-
 window.requestNextAnimationFrame = (function () {
     var originalWebkitRequestAnimationFrame = undefined,
         wrapper = undefined,
@@ -86,4 +79,3 @@ sky.src = 'assets/img/home/banner/sky.png'; //Прописать здесь пу
 sky.onload = function (e) { draw(); };
 
 requestNextAnimationFrame(animate);
-

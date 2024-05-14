@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Mind</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- tovars-edit -->
+    <section class="tovars-edit">
+        <input type="checkbox" id="admin">
+        <label for="admin"></label>
+        <div class="admin-sidebar">
+            <div class="admin-profile">
+                <h3>Администратор</h3>
+                <p class="text">Сменить пароль</p>
+            </div>
+            <div class="admin-menu">
+                <a href="admin.html">
+                    <div class="admin-menu-item">
+                        <div class="profile-img"></div>
+                        <p class="text">Профиль</p>
+                    </div>
+                </a>
+                <a href="admin-authors.html">
+                    <div class="admin-menu-item">
+                        <div class="authors-img"></div>
+                        <p class="text">Художники</p>
+                    </div>
+                </a>
+                <a href="admin-tovars.html">
+                    <div class="admin-menu-item tovars">
+                        <div class="tovars-img"></div>
+                        <p class="text text-active">Товары</p>
+                    </div>
+                </a>
+                <a href="admin-categories.html">
+                    <div class="admin-menu-item">
+                        <div class="categories-img"></div>
+                        <p class="text">Категории</p>
+                    </div>
+                </a>
+                <a href="admin-add-tovar.html">
+                    <div class="admin-menu-item">
+                        <div class="add-tovar-img"></div>
+                        <p class="text">Добавить товар</p>
+                    </div>
+                </a>
+                <a href="admin-add-category.html">
+                    <div class="admin-menu-item">
+                        <div class="add-category-img"></div>
+                        <p class="text">Добавить категорию</p>
+                    </div>
+                </a>
+                <a href="admin-add-author.html">
+                    <div class="admin-menu-item">
+                        <div class="add-author-img"></div>
+                        <p class="text">Добавить художника</p>
+                    </div>
+                </a>
+            </div>
+            <a href="index.html">
+                <div class="admin-menu-item">
+                    <div class="exit-img"></div>
+                    <p class="text">Выйти</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="admin-content">
+            <p class="croshki text"><a href="admin-tovars.html">Товары</a> - <a href="tovars-edit.html"><span>Чайка в
+                        городе</span></a></p>
+            <div class="author-card">
+                <div class="author-img">
+                    <img src="assets/img/tovar/chaika.png" alt="">
+                </div>
+                <div class="author-form">
+                    <div class="form-items">
+                        <p>Название</p>
+                        <input type="text" class="text" value="Чайка в городе">
+                    </div>
+                    <div class="form-items">
+                        <p>Количество экземпляров</p>
+                        <input type="text" class="text" value="В единственном экземпляре">
+                    </div>
+
+                    <div class="form-items">
+                        <p>Художник</p>
+                        <input type="text" class="text" value="Olivia Lem">
+                    </div>
+
+                    <div class="form-items">
+                        <p>Размер</p>
+                        <input type="text" class="text" value="60*50 см">
+                    </div>
+
+                    <div class="form-items">
+                        <p>Материалы</p>
+                        <input type="text" class="text" value="Холст, масло">
+                    </div>
+
+                    <div class="form-items">
+                        <p>Год создания</p>
+                        <input type="number" class="text" value="2020">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tovars-edit end -->
+</body>
+
+</html>

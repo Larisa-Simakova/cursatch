@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Mind</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/logo/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="wrapper" id="header">
+        <div class="header-logo">
+            <img src="assets/logo/logo.svg" alt="">
+        </div>
+        <input type="checkbox" id="burger">
+        <label for="burger"></label>
+        <div class="nav">
+            <nav>
+                <a class="active" href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="about.html">О нас</a>
+                <a href="authors.html">Художники</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+        <div class="header-icon">
+            <a href=""><img src="assets/img/header/shop.svg" alt=""></a>
+            <a href=""><img src="assets/img/header/heart.svg" alt=""></a>
+            <input type="checkbox" id="registr">
+            <label for="registr"></label>
+            <div class="registration">
+                <div class="form-section">
+                    <div class="login-box">
+                        <h2>Авторизация</h2>
+                        <div class="form-items">
+                            <p>Эл.почта</p>
+                            <input type="email" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Пароль</p>
+                            <input type="password">
+                        </div>
+                        <a href="admin.html"><button class="red-btn">Войти в аккаунт</button></a>
+                    </div>
+
+                    <div class="signup-box">
+                        <h2>Регистрация</h2>
+                        <div class="form-items">
+                            <p>Фамилия</p>
+                            <input type="text" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Имя</p>
+                            <input type="text" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Эл.почта</p>
+                            <input type="email" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Пароль</p>
+                            <input type="password">
+                        </div>
+                        <div class="form-items">
+                            <p>Подтверждение пароля</p>
+                            <input type="password">
+                        </div>
+                        <button class="red-btn">Зарегистрироваться</button>
+                    </div>
+                </div>
+                <div class="slider"></div>
+                <div class="btn">
+                    <button class="login">Авторизация</button>
+                    <button class="signup">Регистрация</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- banner-catalog -->
+    <section class="banner-catalog">
+        <div class="wrapper">
+            <div class="banner-catalog-descrip">
+                <div class="banner-text">
+                    <h1>Clear Mind</h1>
+                    <p>— место, где рождаются гении искусства...</p>
+                </div>
+                <svg viewBox="-80 0 210 1" xmlns="http://www.w3.org/2000/svg">
+                    <path id="path" d="M-70 0a70 70 0 10160 0 70 70 0 10-160 0" fill="none" />
+                    <text y="0" letter-spacing="7">
+                        <textPath href="#path" startOffset="20">
+                            Наши художники
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+        </div>
+        <div class="image-slider swiper-container">
+            <div class="image-slider_wrapper swiper-wrapper">
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/authors/authors-banner/author1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/authors/authors-banner/author2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/authors/authors-banner/author3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/authors/authors-banner/author4.png" alt="">
+                    </div>
+                </div>
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/authors/authors-banner/author5.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/kiss.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/van.png" alt="">
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/catalog/banner-catalog/shout.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-catalog end -->
+
+    <!-- authors-museum -->
+    <section class="wrapper py-150 authors-museum">
+        <h2 id="authors-museum">Художники музейного уровня</h2>
+        <div class="authors-items">
+            <div class="author-item">
+                <a href="author.html"><img src="assets/img/authors/authors-museum/alihanov.png" alt=""></a>
+                <h3>Алиханов Хаджи-Мурад</h3>
+            </div>
+            <div class="author-item">
+                <img src="assets/img/authors/authors-museum/atahanov.png" alt="">
+                <h3>Атаханов Азам</h3>
+            </div>
+            <div class="author-item">
+                <img src="assets/img/authors/authors-museum/bruhanov.png" alt="">
+                <h3>Брюханов Сергей</h3>
+            </div>
+            <div class="author-item">
+                <img src="assets/img/authors/authors-museum/vlasov.png" alt="">
+                <h3>Власов Василий</h3>
+            </div>
+        </div>
+    </section>
+    <!-- authors-museum end -->
+
+    <!-- authors-experience -->
+    <section class="wrapper authors-experience">
+        <h2 id="authors-experience" class="title-left">Опытные художники</h2>
+        <div class="authors-items">
+            <div class="author-item">
+                <img src="assets/img/authors/authors-experience/demin.png" alt="">
+                <h3>Дёмин Владимир</h3>
+            </div>
+            <div class="author-item">
+                <img src="assets/img/authors/authors-experience/spictorenko.png" alt="">
+                <h3>Спикторенко Лилиана</h3>
+            </div>
+            <div class="author-item">
+                <img src="assets/img/authors/authors-experience/remizov.png" alt="">
+                <h3>Ремизов Александр</h3>
+            </div>
+            <div class="author-item">
+                <img src="assets/img/authors/authors-experience/yakovleva.png" alt="">
+                <h3>Яковлева Жанна</h3>
+            </div>
+        </div>
+    </section>
+    <!-- authors-experience end -->
+
+    <!-- authors-young -->
+    <section class="wrapper authors-young">
+        <h2 id="authors-young">Молодые художники</h2>
+        <div class="authors-items">
+            <div class="author-item">
+                <img src="assets/img/authors/authors-young/dmitrieva.png" alt="">
+                <h3>Дмитриева Дарья</h3>
+            </div>
+            <div class="author-item">
+                <img src="assets/img/authors/authors-young/companiez.png" alt="">
+                <h3>Компаниец Александр</h3>
+            </div>
+            <div class="author-item">
+                <img src="assets/img/authors/authors-young/parechin.png" alt="">
+                <h3>Паречин Никита</h3>
+            </div>
+            <div class="author-item">
+                <img src="assets/img/authors/authors-young/olivia.png" alt="">
+                <h3>Olivia Lem</h3>
+            </div>
+        </div>
+    </section>
+    <!-- authors-young end -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="wrapper">
+            <div class="footer-block">
+                <p class="footer-author">2024 © Симакова Лариса</p>
+                <a href="index.html"><img src="assets/logo/logo-full.svg" alt=""></a>
+                <div class="footer-docs">
+                    <p class="text">Все права защищены</p>
+                    <p class="text">Политика конфидециальности</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/catalog.js"></script>
+    <script src="assets/js/register.js"></script>
+</body>
+
+</html>

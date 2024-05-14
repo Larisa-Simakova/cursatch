@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Mind</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/logo/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="wrapper" id="header">
+        <div class="header-logo">
+            <img src="assets/logo/logo.svg" alt="">
+        </div>
+        <input type="checkbox" id="burger">
+        <label for="burger"></label>
+        <div class="nav">
+            <nav>
+                <a class="active" href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="about.html">О нас</a>
+                <a href="authors.html">Художники</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+        <div class="header-icon">
+            <a href=""><img src="assets/img/header/shop.svg" alt=""></a>
+            <a href=""><img src="assets/img/header/heart.svg" alt=""></a>
+            <input type="checkbox" id="registr">
+            <label for="registr"></label>
+            <div class="registration">
+                <div class="form-section">
+                    <div class="login-box">
+                        <h2>Авторизация</h2>
+                        <div class="form-items">
+                            <p>Эл.почта</p>
+                            <input type="email" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Пароль</p>
+                            <input type="password">
+                        </div>
+                        <a href="admin.html"><button class="red-btn">Войти в аккаунт</button></a>
+                    </div>
+
+                    <div class="signup-box">
+                        <h2>Регистрация</h2>
+                        <div class="form-items">
+                            <p>Фамилия</p>
+                            <input type="text" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Имя</p>
+                            <input type="text" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Эл.почта</p>
+                            <input type="email" class="text">
+                        </div>
+                        <div class="form-items">
+                            <p>Пароль</p>
+                            <input type="password">
+                        </div>
+                        <div class="form-items">
+                            <p>Подтверждение пароля</p>
+                            <input type="password">
+                        </div>
+                        <button class="red-btn">Зарегистрироваться</button>
+                    </div>
+                </div>
+                <div class="slider"></div>
+                <div class="btn">
+                    <button class="login">Авторизация</button>
+                    <button class="signup">Регистрация</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- author -->
+    <section class="author wrapper">
+        <p class="croshki text"><a href="authors.html">Художники</a> - <a href="author.html"><span>Алиханов
+                    Хаджи-Мурад</span></a></p>
+        <div class="author-card">
+            <div class="author-img">
+                <img src="assets/img/author/alihanov.png" alt="">
+            </div>
+            <div class="author-descrip">
+                <h2>Алиханов Хаджи-Мурад</h2>
+                <div class="author-information">
+                    <div class="author-info">
+                        <input type="checkbox" class="accordion__checkbox" id="accordion-heading-1">
+                        <label class="accordion__heading" for="accordion-heading-1">
+                            <h3>Образование</h3>
+                        </label>
+                        <div class="author-info-items">
+                            <p class="text">Дагестанское художественное училище;</p>
+                            <p class="text">Ленинградский государственный институт театра, музыки и кинематографии</p>
+                        </div>
+                    </div>
+                    <div class="author-info">
+                        <input type="checkbox" class="accordion__checkbox" id="accordion-heading-2">
+                        <label class="accordion__heading" for="accordion-heading-2">
+                            <h3>Награды</h3>
+                        </label>
+                        <div class="author-info-items">
+                            <p class="text">Заслуженный художник Республики Дагестан</p>
+                        </div>
+                    </div>
+                    <div class="author-info">
+                        <input type="checkbox" class="accordion__checkbox" id="accordion-heading-3">
+                        <label class="accordion__heading" for="accordion-heading-3">
+                            <h3>Выставочный опыт</h3>
+                        </label>
+                        <div class="author-info-items">
+                            <p class="text">в активе художника большое количество как персональных выставок (Москва),
+                                так и
+                                групповых выставок (Германия, Бельгия, Сирия, Франция, Россия).</p>
+                        </div>
+                    </div>
+                    <div class="author-info">
+                        <input type="checkbox" class="accordion__checkbox" id="accordion-heading-4">
+                        <label class="accordion__heading" for="accordion-heading-4">
+                            <h3>Музейные собрания, в которых находятся работы художника</h3>
+                        </label>
+                        <div class="author-info-items">
+                            <p class="text">Государственный музей изобразительных искусств им. А.С. Пушкина в Москве;
+                            </p>
+                            <p class="text">Московский музей современного искусства;</p>
+                            <p class="text">Дагестанский музей изобразительных искусств;</p>
+                            <p class="text">Новосибирский государственный художественный музей</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- author end -->
+
+    <!-- author-works -->
+    <section class="author-works wrapper">
+        <h2 class="title-left">Работы художника</h2>
+        <div class="image-slider swiper-container">
+            <div class="image-slider_wrapper swiper-wrapper">
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/author/author-works/author-work1.png" alt="">
+                        <div class="work-name">
+                            <h3>Московский дворик. Ночь</h3>
+                            <p class="price">290 000 ₽</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/author/author-works/author-work2.png" alt="">
+                        <div class="work-name">
+                            <h3>Крылья ангелов</h3>
+                            <p class="price">500 000 ₽</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/author/author-works/author-work3.png" alt="">
+                        <div class="work-name">
+                            <h3>Туннель времени</h3>
+                            <p class="price">1 450 000 ₽</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/author/author-works/author-work4.png" alt="">
+                        <div class="work-name">
+                            <h3>Элегия</h3>
+                            <p class="price">450 000 ₽</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="assets/img/author/author-works/author-work2.png" alt="">
+                        <div class="work-name">
+                            <h3>Крылья ангелов</h3>
+                            <p class="price">500 000 ₽</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- author-works end -->
+
+    <!-- footer -->
+    <footer>
+        <div class="wrapper">
+            <div class="footer-block">
+                <p class="footer-author">2024 © Симакова Лариса</p>
+                <a href="index.html"><img src="assets/logo/logo-full.svg" alt=""></a>
+                <div class="footer-docs">
+                    <p class="text">Все права защищены</p>
+                    <p class="text">Политика конфидециальности</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/about.js"></script>
+    <script src="assets/js/register.js"></script>
+</body>
+
+</html>
